@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: node
-        image: fluentd-node-sample:latest
+        image: docker.target.com/app/smendiratta/fluentd-node-sample:latest
         imagePullPolicy: Never
       restartPolicy: Always
