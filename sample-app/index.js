@@ -6,7 +6,7 @@ const log = SimpleNodeLogger.createSimpleLogger(opts);
 
 (function repeatMe() {
   setTimeout(() => {
-    log.info('it works');
+    log.info('I am here, it works');
     repeatMe();
   }, 1000)
 })();
